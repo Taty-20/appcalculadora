@@ -33,6 +33,12 @@ namespace webapp.Controllers
             if(objCalculadora.Operando =="+"){
 
                 resultado = objCalculadora.Operador1 + objCalculadora.Operador2;
+            }else if(objCalculadora.Operando =="-"){
+                resultado = objCalculadora.Operador1-objCalculadora.Operador2;
+            }else if(objCalculadora.Operando == "*"){
+                resultado = objCalculadora.Operador1*objCalculadora.Operador2;
+            }else {
+                resultado = objCalculadora.Operador1/objCalculadora.Operador2;
             }
             ViewData["Message"] = "el resultado es:"+ resultado;
             return View("Index");

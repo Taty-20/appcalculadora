@@ -17,9 +17,16 @@
         
         <input asp-for="Operador1" class="form-control"/>
         <input asp-for="Operador2" class="form-control"/>
-        <input asp-for="Operando" class="form-control"/>
-        <button type="submit" class="btn btn-primary">Calcular</button>
+        <select asp-for="Operando" class="form-control">
+            <option value="+">Suma</option>
+            <option value="-">Resta</option>
+            <option value="*">Multiplicacion</option> 
+            <option value="/">Division</option>
+
+        </select>
+
+        <br><button type="submit" class="btn btn-primary">Calcular</button>
     </form>
-    <h1>@ViewData["Message"]</h1>
+    <br><h1>@ViewData["Message"]</h1>
 </body>
 </html>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tatif\\Documents\\programacion1\\webapp\\webapp.csproj": {}
+    "c:\\Users\\tatif\\Documents\\programacion1\\webapp\\webapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tatif\\Documents\\programacion1\\webapp\\webapp.csproj": {
+    "c:\\Users\\tatif\\Documents\\programacion1\\webapp\\webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tatif\\Documents\\programacion1\\webapp\\webapp.csproj",
+        "projectUniqueName": "c:\\Users\\tatif\\Documents\\programacion1\\webapp\\webapp.csproj",
         "projectName": "webapp",
-        "projectPath": "C:\\Users\\tatif\\Documents\\programacion1\\webapp\\webapp.csproj",
+        "projectPath": "c:\\Users\\tatif\\Documents\\programacion1\\webapp\\webapp.csproj",
         "packagesPath": "C:\\Users\\tatif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tatif\\Documents\\programacion1\\webapp\\obj\\",
+        "outputPath": "c:\\Users\\tatif\\Documents\\programacion1\\webapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tatif\\AppData\\Roaming\\NuGet\\NuGet.Config"
